@@ -1,78 +1,62 @@
 <h1 align="center">Hi there 👋 I'm Florencia</h1>
 
 ```html
-    <p>I'm a Front-end developer 👩‍💻 with experience in Angular, React, SASS, TypeScript and NPM.</p>
+<p>I'm a Front-end developer 👩‍💻 with experience in Angular, React, SASS, TypeScript and NPM.</p>
 ```
 
 ## aboutMe.js
 
 ```javascript
-    export const aboutMe = {
-        hobbies: [
-            "Play video games",
-            "Watch movies and series",
-            "Learn new technologies"
-        ],
-        maritalStatus: "Married with the best guy in the galaxy", // 🖤
-        location: "From Argentina 🇦🇷 - Living in the United States 🇺🇸",
-        pronouns: "She / Her",
-        thingsILike: [
-            "Anime",
-            "Cats", // Especially my cat Joon 🐱(He's in Argentina 😿)
-            "Chocolate",
-            "Dance",
-            "Mate", //🧉
-            "Overwatch",
-            "Star Wars"
-        ]
-    };
+export const aboutMe = {
+    hobbies: [
+        "Play video games",
+        "Watch movies and series",
+        "Learn new technologies"
+    ],
+    location: {
+        from: "From Argentina 🇦🇷",
+        currently: "Living in the United States 🇺🇸"
+    },
+    pronouns: "She / Her"
+};
 
-    export default aboutMe;
+export default aboutMe;
 ```
 
-## technologiesAndSkills.js
+## technologies.js
 
 ```javascript
-    export const technologiesAndSkills = [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Angular 2+",
-        "Svelte", // Currently learning 🌱
-        "Git",
-        "SASS",
-        "BEM",
-        "Emotion",
-        "Styled Components",
-        "Angular Material UI",
-        "Bootstrap",
-        "Jest",
-        "HLS",
-        "Scrum",
-        "Kanban"
-    ];
+// Some of the technologies that I know
+export const technologies = [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Angular 2+",
+    "Svelte", // Currently learning 🌱
+    "SASS",
+    "Jest",
+    "HLS"
+];
 
-    export default technologiesAndSkills;
+export default technologies;
 ```
 
-## contact.js
+## contactMe.js
 
 ```javascript
-    export const contact = {
-        facebook: "https://www.facebook.com/rightonhana/",
-        instagram: "https://www.instagram.com/rightonhana/",
-        linkedIn: "https://www.linkedin.com/in/rightonhana/",
-        webSite: "https://rightonhana.me" // Here you can find more links 🔗
-    };
+export const contactMe = {
+    instagram: "@rightonhana",
+    linkedIn: "/in/rightonhana",
+    // You can find more links in my website 🔗
+    webSite: "https://rightonhana.me"
+};
 
-    export default contact;
+export default contactMe;
 ```
-
-[Facebook](https://www.facebook.com/rightonhana/) | [Instagram](https://www.instagram.com/rightonhana/) | [LinkedIn](https://www.linkedin.com/in/rightonhana/)
-
 
 ## Stats
 
-![rightonhana stats](https://github-readme-stats.vercel.app/api?username=rightonhana&show_icons=true&theme=graywhite)
+![Rightonhana github stats](https://github-readme-stats.vercel.app/api?username=rightonhana&show_icons=false&bg_color=30,000,232323&title_color=fff&text_color=fff)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rightonhana&layout=compact&bg_color=30,000,232323&title_color=fff&text_color=fff)
