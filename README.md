@@ -14,8 +14,8 @@ export const aboutMe = {
         "Learn new technologies"
     ],
     location: {
-        from: "From Argentina 🇦🇷",
-        currently: "Living in the United States 🇺🇸"
+        from: "🇦🇷",
+        livingIn: "🇺🇸"
     },
     pronouns: "She / Her"
 };
@@ -34,7 +34,7 @@ export const technologies = [
     "TypeScript",
     "React",
     "Angular 2+",
-    "Svelte", // Currently learning 🌱
+    "Svelte",
     "SASS",
     "Jest",
     "HLS"
