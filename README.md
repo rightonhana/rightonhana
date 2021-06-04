@@ -1,1 +1,3 @@
-[![](https://raw.githubusercontent.com/rightonhana/rightonhana/test/avatar.svg)](https://rightonhana.me)
+<p align="center">
+	<img src="./avatar.svg" alt="@rightonhana svg animation" />
+</p>
