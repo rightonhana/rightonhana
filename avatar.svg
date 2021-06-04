@@ -2,8 +2,8 @@
 	xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 128 128" width="128pt" height="128pt">
 	<style>
 			svg {
-				width: 100vw;
-				height: 100vh;
+				width: 512px;
+				height: 512px;
 			}
 
 			.eyelid {
