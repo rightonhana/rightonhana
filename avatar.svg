@@ -268,8 +268,8 @@
 						<path d=" M 370.125 238.97 Q 382.585 223.424 382.754 221.273 C 382.923 219.122 382.472 217.082 381.653 215.113 C 380.239 211.713 377.728 208.527 375.417 205.354 Q 373.107 202.18 359.941 206.581 L 357.965 222.428 L 370.125 238.97 Z " fill="rgb(218,172,163)"/>
 						<path d=" M 357.23 227.098 Q 362.527 234.483 360.52 237.458 C 358.514 240.434 348.524 250.164 348.301 252.552 C 348.079 254.94 367.822 242.853 370.125 238.97 C 372.428 235.088 374.903 224.251 373.178 219.577 Q 371.453 214.903 364.568 211.75 L 359.765 210.994 L 357.23 227.098 Z " fill="rgb(237,186,169)"/>
 					</g>
-					<path d=" M 359.363 256.698 C 358.803 265.638 356.59 272.786 354.425 272.651 C 353.222 272.575 352.285 270.268 351.786 266.698" fill="none" vector-effect="non-scaling-stroke" stroke-width="4" stroke="rgb(66,63,61)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
-					<path d=" M 378.892 215.806 C 387.758 214.522 394.703 211.736 394.392 209.589 C 394.219 208.396 391.843 207.65 388.244 207.442" fill="none" vector-effect="non-scaling-stroke" stroke-width="4" stroke="rgb(89,87,86)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
+					<path d=" M 359.363 256.698 C 358.803 265.638 356.59 272.786 354.425 272.651 C 353.222 272.575 352.285 270.268 351.786 266.698" fill="none" stroke-width="4" stroke="rgb(66,63,61)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
+					<path d=" M 378.892 215.806 C 387.758 214.522 394.703 211.736 394.392 209.589 C 394.219 208.396 391.843 207.65 388.244 207.442" fill="none" stroke-width="4" stroke="rgb(89,87,86)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
 					<path d=" M 342.479 259.088 C 342.904 256.384 345.402 254.527 348.052 254.945 C 350.703 255.362 352.509 257.896 352.083 260.6 C 351.658 263.304 349.16 265.16 346.51 264.743 C 343.859 264.326 342.053 261.792 342.479 259.088 Z " fill="rgb(66,63,61)"/>
 				</g>
 				<g>
@@ -281,8 +281,8 @@
 						<path d=" M 146.334 238.185 Q 135.407 221.525 135.443 219.368 C 135.478 217.211 136.121 215.222 137.124 213.34 C 138.854 210.091 141.657 207.157 144.258 204.217 Q 146.859 201.278 159.304 204.217 L 160.01 222.872 L 146.334 238.185 Z " fill="rgb(218,172,163)"/>
 						<path d=" M 160.298 227.59 Q 154.324 234.44 156.039 237.592 C 157.753 240.744 166.775 251.38 166.769 253.778 C 166.763 256.176 148.258 242.268 146.334 238.185 C 144.41 234.102 142.975 223.078 145.136 218.589 Q 147.297 214.1 154.451 211.615 L 159.304 211.319 L 160.298 227.59 Z " fill="rgb(237,186,169)"/>
 					</g>
-					<path d=" M 142.591 243.604 C 137.299 250.832 135.496 258.525 138.565 260.771 C 140.27 262.019 143.123 261.326 146.229 259.223" fill="none" vector-effect="non-scaling-stroke" stroke-width="4" stroke="rgb(59,57,55)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
-					<path d=" M 153.103 249.153 C 152.801 249.535 152.502 249.926 152.208 250.328 C 146.918 257.555 145.113 265.249 148.182 267.495 C 150.228 268.993 153.927 267.695 157.733 264.521" fill="none" vector-effect="non-scaling-stroke" stroke-width="4" stroke="rgb(66,63,61)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
+					<path d=" M 142.591 243.604 C 137.299 250.832 135.496 258.525 138.565 260.771 C 140.27 262.019 143.123 261.326 146.229 259.223" fill="none" stroke-width="4" stroke="rgb(59,57,55)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
+					<path d=" M 153.103 249.153 C 152.801 249.535 152.502 249.926 152.208 250.328 C 146.918 257.555 145.113 265.249 148.182 267.495 C 150.228 268.993 153.927 267.695 157.733 264.521" fill="none" stroke-width="4" stroke="rgb(66,63,61)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
 				</g>
 			</g>
 			<path d=" M 158.089 154.004 C 148.037 189.49 165.202 285.426 179.789 303.38 C 194.376 321.334 231.978 351.093 242.312 354.739 C 252.646 358.384 260.164 354.404 267.02 352.732 C 273.876 351.059 310.845 327.867 326.343 305.824 C 341.841 283.78 340.236 279.257 345.908 264.058 C 351.58 248.86 380.621 175.057 361.709 128.855 C 342.798 82.653 318.809 63.841 276.736 60.188 C 234.663 56.536 212.005 72.65 189.569 94.053 C 167.133 115.456 168.142 118.519 158.089 154.004 Z " fill="rgb(248,221,198)"/>
@@ -297,7 +297,7 @@
 			</g>
 			<g>
 				<path d=" M 257.838 225.55 Q 255.366 225.538 252.921 229.55 Q 244.961 269.927 245.556 273.332 Q 246.15 276.737 257.838 284.724 Q 269.494 276.175 270.003 273.332 Q 270.511 270.49 262.756 229.55 Q 260.311 225.562 257.838 225.55 Z " fill="rgb(248,209,187)"/>
-				<path d=" M 262.756 276.929 C 264.296 279.551 267.519 280.521 269.947 279.095 C 272.376 277.668 273.097 274.381 271.557 271.759 C 270.701 270.302 269.326 269.355 267.857 269.046" fill="none" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke="rgb(185,185,185)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
+				<path d=" M 262.756 276.929 C 264.296 279.551 267.519 280.521 269.947 279.095 C 272.376 277.668 273.097 274.381 271.557 271.759 C 270.701 270.302 269.326 269.355 267.857 269.046" fill="none" stroke-width="0.5" stroke="rgb(185,185,185)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
 			</g>
 			<path class="mouth" d=" M 256 296.231 Q 247.412 296.231 232 300.231 Q 242.886 307.856 256 308.061 Q 269.114 308.266 280 300.231 Q 264.588 296.231 256 296.231 Z " fill="rgb(244,206,186)"/>
 			<clipPath class="mouth" id="_clipPath_JX8fiKH0Xb474edhzH4QCrP3N8s60Aq5">
@@ -320,7 +320,7 @@
 						<g clip-path="url(#_clipPath_0hos5BazCAMoZGy4nniACZvRfRmiAKAL)">
 							<rect x="187.828" y="223.191" width="50.339" height="25.379" transform="matrix(1,-0.003,0.003,1,-0.81,0.734)" fill="rgb(88,162,162)"/>
 						</g>
-						<path d=" M 199.236 224.175 C 199.214 217.872 203.459 212.739 208.709 212.721 C 213.959 212.703 218.238 217.806 218.26 224.11 C 218.282 230.413 214.037 235.546 208.787 235.564 C 203.537 235.582 199.258 230.479 199.236 224.175 Z " fill="transparent" r="NaN" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(255,255,255)" stroke-opacity="0.75" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+						<path d=" M 199.236 224.175 C 199.214 217.872 203.459 212.739 208.709 212.721 C 213.959 212.703 218.238 217.806 218.26 224.11 C 218.282 230.413 214.037 235.546 208.787 235.564 C 203.537 235.582 199.258 230.479 199.236 224.175 Z " fill="transparent" r="NaN" stroke-width="3" stroke="rgb(255,255,255)" stroke-opacity="0.75" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
 						<path d=" M 199.236 224.175 C 199.214 217.872 203.459 212.739 208.709 212.721 C 213.959 212.703 218.238 217.806 218.26 224.11 C 218.282 230.413 214.037 235.546 208.787 235.564 C 203.537 235.582 199.258 230.479 199.236 224.175 Z " fill="rgb(66,63,61)"/>
 					</g>
 				</g>
@@ -337,7 +337,7 @@
 						<g clip-path="url(#_clipPath_YFzsVwqUqkhAWNlZn914Yb7zaZEosGuq)">
 							<rect x="281.984" y="222.9" width="50.339" height="25.379" transform="matrix(1,0.001,-0.001,1,0.22,-0.287)" fill="rgb(88,162,162)"/>
 						</g>
-						<path d=" M 320.885 223.85 C 320.891 217.546 316.634 212.424 311.384 212.419 C 306.134 212.415 301.867 217.528 301.861 223.832 C 301.855 230.135 306.113 235.257 311.363 235.262 C 316.612 235.267 320.879 230.153 320.885 223.85 Z " fill="transparent" r="NaN" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(255,255,255)" stroke-opacity="0.75" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+						<path d=" M 320.885 223.85 C 320.891 217.546 316.634 212.424 311.384 212.419 C 306.134 212.415 301.867 217.528 301.861 223.832 C 301.855 230.135 306.113 235.257 311.363 235.262 C 316.612 235.267 320.879 230.153 320.885 223.85 Z " fill="transparent" r="NaN" stroke-width="3" stroke="rgb(255,255,255)" stroke-opacity="0.75" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
 						<path d=" M 320.885 223.85 C 320.891 217.546 316.634 212.424 311.384 212.419 C 306.134 212.415 301.867 217.528 301.861 223.832 C 301.855 230.135 306.113 235.257 311.363 235.262 C 316.612 235.267 320.879 230.153 320.885 223.85 Z " fill="rgb(66,63,61)"/>
 					</g>
 				</g>
@@ -354,7 +354,7 @@
 				<g clip-path="url(#_clipPath_1XDFHp4HWZd4vy30tLdXBRV5rhakNzRq)">
 					<rect x="123.213" y="192.186" width="54.127" height="11.305" transform="matrix(0.421,0.907,-0.79,0.673,243.243,-71.564)" fill="rgb(62,60,59)"/>
 				</g>
-				<path d=" M 163.774 209.959 Q 195.161 208.352 242.878 212.901 Q 244.846 236.494 239.505 250.59 Q 210.302 256.977 167.97 251.335 Q 162.421 226.376 163.774 209.959 Z " fill="none" vector-effect="non-scaling-stroke" stroke-width="6" stroke="rgb(66,63,61)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
+				<path d=" M 163.774 209.959 Q 195.161 208.352 242.878 212.901 Q 244.846 236.494 239.505 250.59 Q 210.302 256.977 167.97 251.335 Q 162.421 226.376 163.774 209.959 Z " fill="none" stroke-width="6" stroke="rgb(66,63,61)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
 				<path d=" M 353.606 216 Q 354.515 216.232 349.606 206.903 Q 366.829 187.36 369.642 185.07 C 372.455 182.78 352.697 215.768 353.606 216 Z " fill="rgb(66,63,61)"/>
 				<clipPath id="_clipPath_qgBuM5nhwR8QO17w6NlDtbotpFVkGGJD">
 					<path d=" M 353.606 216 Q 354.515 216.232 349.606 206.903 Q 366.829 187.36 369.642 185.07 C 372.455 182.78 352.697 215.768 353.606 216 Z " fill="rgb(66,63,61)"/>
@@ -362,8 +362,8 @@
 				<g clip-path="url(#_clipPath_qgBuM5nhwR8QO17w6NlDtbotpFVkGGJD)">
 					<rect x="341.034" y="191.178" width="54.127" height="11.305" transform="matrix(0.538,-0.843,0.693,0.772,33.422,355.034)" fill="rgb(62,60,59)"/>
 				</g>
-				<path d=" M 352.093 207.999 Q 320.68 207.046 273.068 212.587 Q 271.591 236.216 277.225 250.198 Q 306.554 255.975 348.759 249.453 Q 353.788 224.385 352.093 207.999 Z " fill="none" vector-effect="non-scaling-stroke" stroke-width="6" stroke="rgb(66,63,61)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
-				<path d=" M 243.631 221.414 Q 247.074 216.242 258.012 216.509 Q 268.95 216.776 272.801 221.414" fill="none" vector-effect="non-scaling-stroke" stroke-width="6" stroke="rgb(66,63,61)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
+				<path d=" M 352.093 207.999 Q 320.68 207.046 273.068 212.587 Q 271.591 236.216 277.225 250.198 Q 306.554 255.975 348.759 249.453 Q 353.788 224.385 352.093 207.999 Z " fill="none" stroke-width="6" stroke="rgb(66,63,61)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
+				<path d=" M 243.631 221.414 Q 247.074 216.242 258.012 216.509 Q 268.95 216.776 272.801 221.414" fill="none" stroke-width="6" stroke="rgb(66,63,61)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
 			</g>
 			<g>
 				<path d=" M 316 48 Q 267.799 19.815 240 20 C 212.201 20.185 195.276 29.515 180 48 C 164.724 66.485 155.159 100.342 144 117.668 Q 132.841 134.994 132 200 L 316 48 Z " fill="rgb(94,64,56)"/>
