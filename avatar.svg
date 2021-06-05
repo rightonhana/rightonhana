@@ -3,27 +3,27 @@
 	<style>
 			.dialog-1 {
 				opacity: 0;
-				animation: greet 5s both;
+				animation: greet 7s both;
 			}
 
 			.dialog-2 {
 				opacity: 0;
-				animation: from 5s both;
+				animation: from 7s both;
 			}
 
 			.dialog-3 {
 				opacity: 0;
-				animation: profession 5s both;
+				animation: profession 7s both;
 			}
 
 			.dialog-4 {
 				opacity: 0;
-				animation: pronouns 5s both;
+				animation: pronouns 7s both;
 			}
 
 			.dialog-5 {
 				opacity: 0;
-				animation: contact 5s both;
+				animation: contact 7s both;
 			}
 
 			.eyelid {
@@ -41,8 +41,14 @@
 				transform-origin: center;
 			}
 
-			.mouth {
+			.mouth, .dot {
+				animation: mouth 30s ease-in-out infinite;
+				transform-origin: center;
+			}
 
+			.cheeks {
+				animation: cheeks 30s ease-in-out infinite;
+				transform-origin: center;
 			}
 
 			@keyframes greet {
@@ -153,21 +159,48 @@
 
 			@keyframes pupil {
 				5%, 20% {
-					transform: translate(2px, -0.5px);
+					transform: translate(3px, -1px);
 				}
 				10%, 15% {
-					transform: translate(-1.5px, 1px);
+					transform: translate(-3px, 1px);
+				}
+				20%, 100% {
+					transform: translate(0, 0);
 				}
 			}
 
 			@keyframes eyebrow {
-				0, 9% {
+				0%, 9% {
 					transform: translate(0, 0);
 				}
 				10%, 15% {
 					transform: translate(0, 0.5px);
 				}
 				16%, 100% {
+					transform: translate(0, 0);
+				}
+			}
+
+			@keyframes mouth {
+				0%, 4% {
+					transform: rotate(0deg) translate(0, 0);
+				}
+				5%, 20% {
+					transform: rotate(0.3deg) translate(-1px, -0.5px);
+				}
+				21%, 100% {
+					transform: rotate(0deg) translate(0, 0);
+				}
+			}
+
+			@keyframes cheeks {
+				0%, 4% {
+					transform: translate(0, 0);
+				}
+				5%, 20% {
+					transform: translate(-3px, 0);
+				}
+				21%, 100% {
 					transform: translate(0, 0);
 				}
 			}
@@ -257,18 +290,18 @@
 				<path d=" M 158.089 154.004 C 148.037 189.49 165.202 285.426 179.789 303.38 C 194.376 321.334 231.978 351.093 242.312 354.739 C 252.646 358.384 260.164 354.404 267.02 352.732 C 273.876 351.059 310.845 327.867 326.343 305.824 C 341.841 283.78 340.236 279.257 345.908 264.058 C 351.58 248.86 380.621 175.057 361.709 128.855 C 342.798 82.653 318.809 63.841 276.736 60.188 C 234.663 56.536 212.005 72.65 189.569 94.053 C 167.133 115.456 168.142 118.519 158.089 154.004 Z " fill="rgb(248,221,198)"/>
 			</clipPath>
 			<g clip-path="url(#_clipPath_GfHGE5rPamZOn1mdOv4gmrt5SbajtGwC)">
-				<path d=" M 154.906 276.664 C 156.697 261.34 172.251 250.547 189.618 252.577 C 206.986 254.607 219.632 268.695 217.841 284.019 C 216.05 299.343 200.496 310.136 183.129 308.107 C 165.761 306.077 153.115 291.988 154.906 276.664 Z " fill="rgb(244,185,176)" fill-opacity="0.5"/>
-				<path d=" M 297.849 287.531 C 294.061 272.576 304.747 256.948 321.698 252.655 C 338.648 248.361 355.485 257.018 359.273 271.974 C 363.061 286.93 352.375 302.558 335.425 306.851 C 318.474 311.144 301.637 302.487 297.849 287.531 Z " fill="rgb(244,185,176)" fill-opacity="0.5"/>
+				<path class="cheeks" d=" M 154.906 276.664 C 156.697 261.34 172.251 250.547 189.618 252.577 C 206.986 254.607 219.632 268.695 217.841 284.019 C 216.05 299.343 200.496 310.136 183.129 308.107 C 165.761 306.077 153.115 291.988 154.906 276.664 Z " fill="rgb(244,185,176)" fill-opacity="0.5"/>
+				<path class="cheeks" d=" M 297.849 287.531 C 294.061 272.576 304.747 256.948 321.698 252.655 C 338.648 248.361 355.485 257.018 359.273 271.974 C 363.061 286.93 352.375 302.558 335.425 306.851 C 318.474 311.144 301.637 302.487 297.849 287.531 Z " fill="rgb(244,185,176)" fill-opacity="0.5"/>
 				<path d=" M 327.92 246.06 C 328.076 244.728 329.284 243.772 330.617 243.928 C 331.949 244.084 332.905 245.292 332.749 246.624 C 332.593 247.957 331.385 248.912 330.052 248.757 C 328.72 248.601 327.764 247.393 327.92 246.06 Z " fill="rgb(237,186,169)"/>
-				<path d=" M 239.625 289.582 C 239.781 288.25 240.989 287.294 242.321 287.45 C 243.654 287.606 244.609 288.814 244.453 290.147 C 244.298 291.479 243.089 292.434 241.757 292.279 C 240.424 292.123 239.469 290.915 239.625 289.582 Z " fill="rgb(237,186,169)"/>
+				<path class="dot" d=" M 239.625 289.582 C 239.781 288.25 240.989 287.294 242.321 287.45 C 243.654 287.606 244.609 288.814 244.453 290.147 C 244.298 291.479 243.089 292.434 241.757 292.279 C 240.424 292.123 239.469 290.915 239.625 289.582 Z " fill="rgb(237,186,169)"/>
 			</g>
 			<g>
 				<path d=" M 257.838 225.55 Q 255.366 225.538 252.921 229.55 Q 244.961 269.927 245.556 273.332 Q 246.15 276.737 257.838 284.724 Q 269.494 276.175 270.003 273.332 Q 270.511 270.49 262.756 229.55 Q 260.311 225.562 257.838 225.55 Z " fill="rgb(248,209,187)"/>
 				<path d=" M 262.756 276.929 C 264.296 279.551 267.519 280.521 269.947 279.095 C 272.376 277.668 273.097 274.381 271.557 271.759 C 270.701 270.302 269.326 269.355 267.857 269.046" fill="none" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke="rgb(185,185,185)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
 			</g>
 			<path class="mouth" d=" M 256 296.231 Q 247.412 296.231 232 300.231 Q 242.886 307.856 256 308.061 Q 269.114 308.266 280 300.231 Q 264.588 296.231 256 296.231 Z " fill="rgb(244,206,186)"/>
-			<clipPath id="_clipPath_JX8fiKH0Xb474edhzH4QCrP3N8s60Aq5">
-				<path d=" M 256 296.231 Q 247.412 296.231 232 300.231 Q 242.886 307.856 256 308.061 Q 269.114 308.266 280 300.231 Q 264.588 296.231 256 296.231 Z " fill="rgb(244,206,186)"/>
+			<clipPath class="mouth" id="_clipPath_JX8fiKH0Xb474edhzH4QCrP3N8s60Aq5">
+				<path class="mouth" d=" M 256 296.231 Q 247.412 296.231 232 300.231 Q 242.886 307.856 256 308.061 Q 269.114 308.266 280 300.231 Q 264.588 296.231 256 296.231 Z " fill="rgb(244,206,186)"/>
 			</clipPath>
 			<g clip-path="url(#_clipPath_JX8fiKH0Xb474edhzH4QCrP3N8s60Aq5)">
 				<rect x="229.261" y="300" width="53.477" height="9.723" transform="matrix(1,0,0,1,0,0)" fill="rgb(243,197,173)"/>
@@ -354,9 +387,9 @@
 		<g class="dialog-5">
 			<path d=" M 543.54 442.992 Q 540.599 443.14 541.063 440.62 Q 543.711 436.979 544.778 433.505 C 545.844 430.03 545.91 377.421 546.635 363.537 Q 546.635 355.631 554.064 355.235 L 903.571 355.235 Q 910.69 356.026 911 363.537 Q 911 377.421 911 433.505 Q 909.452 441.806 903.571 442.992 C 816.881 442.992 678.687 442.992 543.54 442.992 Z " fill="rgb(57,56,56)"/>
 			<g clip-path="url(#_clipPath_cd6GMJ8GaVQpHZEklPJY27QnsFp6XqOK)">
-				<text transform="matrix(1,0,0,1,565,381.172)" style="font-family:'Roboto';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">If you want to know more about me </text>
-				<text transform="matrix(1,0,0,1,565,404.61)" style="font-family:'Roboto';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">you can reach me out on </text>
-				<text transform="matrix(1,0,0,1,565,428.047)" style="font-family:'Roboto';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">🔗 rightonhana.me</text>
+				<text transform="matrix(1,0,0,1,565,381.172)" style="font-family:'sans-serif';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">If you want to know more about me </text>
+				<text transform="matrix(1,0,0,1,565,404.61)" style="font-family:'sans-serif';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">you can reach me out on </text>
+				<text transform="matrix(1,0,0,1,565,428.047)" style="font-family:'sans-serif';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;"><a xlink:href="https://rightonhana.me" target="_blank">🔗 rightonhana.me</a></text>
 			</g>
 			<defs>
 				<clipPath id="_clipPath_cd6GMJ8GaVQpHZEklPJY27QnsFp6XqOK">
@@ -367,7 +400,7 @@
 		<g class="dialog-4">
 			<path d=" M 543.142 442.993 Q 540.662 443.118 541.053 440.993 Q 543.286 437.923 544.186 434.993 C 545.085 432.063 545.141 416.701 545.752 404.993 Q 545.752 398.326 552.016 397.993 L 823.736 397.993 Q 829.739 398.66 830 404.993 Q 830 416.701 830 434.993 Q 828.695 441.993 823.736 442.993 C 750.635 442.993 657.103 442.993 543.142 442.993 Z " fill="rgb(57,56,56)"/>
 			<g clip-path="url(#_clipPath_Ms0lecwxuJ44rVCTRwPcoZdoHehpvDLq)">
-				<text transform="matrix(1,0,0,1,559.408,426.799)" style="font-family:'Roboto';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">My pronouns are She/Her 👩‍💻</text>
+				<text transform="matrix(1,0,0,1,559.408,426.799)" style="font-family:'sans-serif';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">My pronouns are She/Her 👩‍💻</text>
 			</g>
 			<defs>
 				<clipPath id="_clipPath_Ms0lecwxuJ44rVCTRwPcoZdoHehpvDLq">
@@ -378,9 +411,9 @@
 		<g class="dialog-3">
 			<path d=" M 543.54 442.992 Q 540.599 443.14 541.063 440.62 Q 543.711 436.979 544.778 433.505 C 545.844 430.03 545.91 377.421 546.635 363.537 Q 546.635 355.631 554.064 355.235 L 903.571 355.235 Q 910.69 356.026 911 363.537 Q 911 377.421 911 433.505 Q 909.452 441.806 903.571 442.992 C 816.881 442.992 678.687 442.992 543.54 442.992 Z " fill="rgb(57,56,56)"/>
 			<g clip-path="url(#_clipPath_cd6GMJ8GaVQpHZEklPJY27QnsFp6XqOK)">
-				<text transform="matrix(1,0,0,1,565,381.172)" style="font-family:'Roboto';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm a Front-end Developer with </text>
-				<text transform="matrix(1,0,0,1,565,404.61)" style="font-family:'Roboto';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">experience in Angular, React and </text>
-				<text transform="matrix(1,0,0,1,565,428.047)" style="font-family:'Roboto';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">Svelte.</text>
+				<text transform="matrix(1,0,0,1,565,381.172)" style="font-family:'sans-serif';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm a Front-end Developer with </text>
+				<text transform="matrix(1,0,0,1,565,404.61)" style="font-family:'sans-serif';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">experience in Angular, React and </text>
+				<text transform="matrix(1,0,0,1,565,428.047)" style="font-family:'sans-serif';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">Svelte.</text>
 			</g>
 			<defs>
 				<clipPath id="_clipPath_cd6GMJ8GaVQpHZEklPJY27QnsFp6XqOK">
@@ -391,8 +424,8 @@
 		<g class="dialog-2">
 			<path d=" M 543.742 442.16 Q 540.567 442.285 541.068 440.155 Q 543.927 437.077 545.078 434.139 C 546.23 431.202 546.301 394.748 547.084 383.011 Q 547.084 376.327 555.104 375.993 L 902.98 375.993 Q 910.666 376.661 911 383.011 Q 911 394.748 911 434.139 Q 909.329 441.157 902.98 442.16 C 809.39 442.16 689.644 442.16 543.742 442.16 Z " fill="rgb(57,56,56)"/>
 			<g clip-path="url(#_clipPath_ESlM0h8RX5VXCFQgA5t80sqGiBmZNFpN)">
-				<text transform="matrix(1,0,0,1,561.068,404.114)" style="font-family:'Roboto';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm from Argentina 🇦🇷 but currently I'm </text>
-				<text transform="matrix(1,0,0,1,561.068,427.551)" style="font-family:'Roboto';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">living in the United States 🇺🇸</text>
+				<text transform="matrix(1,0,0,1,561.068,404.114)" style="font-family:'sans-serif';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm from Argentina 🇦🇷 but currently I'm </text>
+				<text transform="matrix(1,0,0,1,561.068,427.551)" style="font-family:'sans-serif';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">living in the United States 🇺🇸</text>
 			</g>
 			<defs>
 				<clipPath id="_clipPath_ESlM0h8RX5VXCFQgA5t80sqGiBmZNFpN">
@@ -403,7 +436,7 @@
 		<g class="dialog-1">
 			<path d=" M 543.297 442.993 Q 540.637 443.118 541.057 440.993 Q 543.452 437.923 544.417 434.993 C 545.382 432.063 545.441 416.701 546.097 404.993 Q 546.097 398.326 552.817 397.993 L 859.28 397.993 Q 865.72 398.66 866 404.993 Q 866 416.701 866 434.993 Q 864.6 441.993 859.28 442.993 C 780.868 442.993 665.54 442.993 543.297 442.993 Z " fill="rgb(57,56,56)"/>
 			<g clip-path="url(#_clipPath_3D2gxkuakMBlARHwnRYqTgx1WEIpF5CZ)">
-				<text transform="matrix(1,0,0,1,559,427.048)" style="font-family:'Roboto';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">Hi there 👋 I'm Florencia Gonzalez</text>
+				<text transform="matrix(1,0,0,1,559,427.048)" style="font-family:'sans-serif';font-weight:400;font-size:20px;font-style:normal;fill:#e8e8e8;stroke:none;">Hi there 👋 I'm Florencia Gonzalez</text>
 			</g>
 			<defs>
 				<clipPath id="_clipPath_3D2gxkuakMBlARHwnRYqTgx1WEIpF5CZ">
