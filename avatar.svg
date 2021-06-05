@@ -424,8 +424,8 @@
 		<g class="dialog-2">
 			<path d=" M 543.742 442.16 Q 540.567 442.285 541.068 440.155 Q 543.927 437.077 545.078 434.139 C 546.23 431.202 546.301 394.748 547.084 383.011 Q 547.084 376.327 555.104 375.993 L 902.98 375.993 Q 910.666 376.661 911 383.011 Q 911 394.748 911 434.139 Q 909.329 441.157 902.98 442.16 C 809.39 442.16 689.644 442.16 543.742 442.16 Z " fill="rgb(57,56,56)"/>
 			<g clip-path="url(#_clipPath_ESlM0h8RX5VXCFQgA5t80sqGiBmZNFpN)">
-				<text transform="matrix(1,0,0,1,561.068,404.114)" style="font-family:sans-serif;font-weight:400;font-size:18px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm from Argentina 🇦🇷 but currently I'm </text>
-				<text transform="matrix(1,0,0,1,561.068,427.551)" style="font-family:sans-serif;font-weight:400;font-size:18px;font-style:normal;fill:#e8e8e8;stroke:none;">living in the United States 🇺🇸</text>
+				<text transform="matrix(1,0,0,1,561.068,404.114)" style="font-family:sans-serif;font-weight:400;font-size:18px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm from Argentina 🇦🇷 but currently </text>
+				<text transform="matrix(1,0,0,1,561.068,427.551)" style="font-family:sans-serif;font-weight:400;font-size:18px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm living in the United States 🇺🇸</text>
 			</g>
 			<defs>
 				<clipPath id="_clipPath_ESlM0h8RX5VXCFQgA5t80sqGiBmZNFpN">
@@ -440,7 +440,7 @@
 			</g>
 			<defs>
 				<clipPath id="_clipPath_3D2gxkuakMBlARHwnRYqTgx1WEIpF5CZ">
-					<rect x="0" y="0" width="290" height="24.007" transform="matrix(1,0,0,1,559,408.493)"/>
+					<rect x="0" y="0" width="305" height="24.007" transform="matrix(1,0,0,1,559,408.493)"/>
 				</clipPath>
 			</defs>
 		</g>
