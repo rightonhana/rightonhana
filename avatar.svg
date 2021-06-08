@@ -42,22 +42,22 @@
 			}
 
 			.mouth {
-				animation: mouth 15s ease-in-out infinite;
+				animation: mouth 15s linear infinite;
 				transform-origin: center;
 			}
 
 			.dot {
-				animation: dot 15s ease-in-out infinite;
+				animation: dot 15s linear infinite;
 				transform-origin: center;
 			}
 
 			.cheeks:first-child {
-				animation: cheeks1 15s ease-in-out infinite;
+				animation: cheeks1 15s linear infinite;
 				transform-origin: center;
 			}
 
 			.cheeks:nth-child(2) {
-				animation: cheeks2 15s ease-in-out infinite;
+				animation: cheeks2 15s linear infinite;
 				transform-origin: center;
 			}
 
@@ -169,10 +169,10 @@
 
 			@keyframes pupil {
 				5%, 20% {
-					transform: translate(3px, -1px);
+					transform: translate(5px, -1px);
 				}
 				10%, 15% {
-					transform: translate(-3px, 1px);
+					transform: translate(-5px, 1px);
 				}
 				20%, 100% {
 					transform: translate(0, 0);
