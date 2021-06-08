@@ -32,7 +32,7 @@
 			}
 			
 			.pupil {
-				animation: pupil 30s ease-out infinite;
+				animation: pupil 15s ease-out infinite;
 				transform-origin: center;
 			}
 
@@ -41,13 +41,23 @@
 				transform-origin: center;
 			}
 
-			.mouth, .dot {
-				animation: mouth 30s ease-in-out infinite;
+			.mouth {
+				animation: mouth 15s ease-in-out infinite;
 				transform-origin: center;
 			}
 
-			.cheeks {
-				animation: cheeks 30s ease-in-out infinite;
+			.dot {
+				animation: dot 15s ease-in-out infinite;
+				transform-origin: center;
+			}
+
+			.cheeks:first-child {
+				animation: cheeks1 15s ease-in-out infinite;
+				transform-origin: center;
+			}
+
+			.cheeks:nth-child(2) {
+				animation: cheeks2 15s ease-in-out infinite;
 				transform-origin: center;
 			}
 
@@ -183,22 +193,46 @@
 
 			@keyframes mouth {
 				0%, 4% {
-					transform: rotate(0deg) translate(0, 0);
+					transform: translate(0, 0);
 				}
 				5%, 20% {
-					transform: rotate(0.3deg) translate(-1px, -0.5px);
+					transform: translate(0, -3px);
 				}
 				21%, 100% {
-					transform: rotate(0deg) translate(0, 0);
+					transform: translate(0, 0);
 				}
 			}
 
-			@keyframes cheeks {
+			@keyframes dot {
+				0%, 4% {
+					transform: translate(0, 0);
+				}
+				5%, 20% {
+					transform: translate(0, -3px);
+				}
+				21%, 100% {
+					transform: translate(0, 0);
+				}
+			}
+
+			@keyframes cheeks1 {
 				0%, 4% {
 					transform: translate(0, 0);
 				}
 				5%, 20% {
 					transform: translate(-3px, 0);
+				}
+				21%, 100% {
+					transform: translate(0, 0);
+				}
+			}
+
+			@keyframes cheeks2 {
+				0%, 4% {
+					transform: translate(0, 0);
+				}
+				5%, 20% {
+					transform: translate(3px, 0);
 				}
 				21%, 100% {
 					transform: translate(0, 0);
