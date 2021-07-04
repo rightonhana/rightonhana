@@ -41,26 +41,6 @@
 				transform-origin: center;
 			}
 
-			.mouth {
-				animation: mouth 15s linear infinite;
-				transform-origin: center;
-			}
-
-			.dot {
-				animation: dot 15s linear infinite;
-				transform-origin: center;
-			}
-
-			.cheeks:first-child {
-				animation: cheeks1 15s linear infinite;
-				transform-origin: center;
-			}
-
-			.cheeks:nth-child(2) {
-				animation: cheeks2 15s linear infinite;
-				transform-origin: center;
-			}
-
 			@keyframes greet {
 				0% {
 					opacity: 0;
@@ -187,54 +167,6 @@
 					transform: translate(0, 0.5px);
 				}
 				16%, 100% {
-					transform: translate(0, 0);
-				}
-			}
-
-			@keyframes mouth {
-				0%, 4% {
-					transform: translate(0, 0);
-				}
-				5%, 20% {
-					transform: translate(0, -3px);
-				}
-				21%, 100% {
-					transform: translate(0, 0);
-				}
-			}
-
-			@keyframes dot {
-				0%, 4% {
-					transform: translate(0, 0);
-				}
-				5%, 20% {
-					transform: translate(0, -3px);
-				}
-				21%, 100% {
-					transform: translate(0, 0);
-				}
-			}
-
-			@keyframes cheeks1 {
-				0%, 4% {
-					transform: translate(0, 0);
-				}
-				5%, 20% {
-					transform: translate(-3px, 0);
-				}
-				21%, 100% {
-					transform: translate(0, 0);
-				}
-			}
-
-			@keyframes cheeks2 {
-				0%, 4% {
-					transform: translate(0, 0);
-				}
-				5%, 20% {
-					transform: translate(3px, 0);
-				}
-				21%, 100% {
 					transform: translate(0, 0);
 				}
 			}
