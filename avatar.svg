@@ -41,6 +41,26 @@
 				transform-origin: center;
 			}
 
+			.mouth {
+				animation: mouth 15s ease infinite;
+				transform-origin: center;
+			}
+
+			.dot {
+				animation: dot 15s ease infinite;
+				transform-origin: center;
+			}
+
+			.cheeks:first-child {
+				animation: cheeks1 15s ease infinite;
+				transform-origin: center;
+			}
+
+			.cheeks:nth-child(2), .cheeks:nth-child(3) {
+				animation: cheeks2 15s ease infinite;
+				transform-origin: center;
+			}
+
 			@keyframes greet {
 				0% {
 					opacity: 0;
@@ -170,6 +190,55 @@
 					transform: translate(0, 0);
 				}
 			}
+
+			@keyframes mouth {
+				0%, 4% {
+					transform: scale(1, 1);
+				}
+				5%, 20% {
+					transform-origin: 250px 280px;
+					transform: scale(1.1 , 0.95);
+				}
+				21%, 100% {
+					transform: scale(1, 1);
+				}
+			}
+
+			@keyframes dot {
+				0%, 4% {
+					transform: translate(0, 0);
+				}
+				5%, 20% {
+					transform: translate(0, -3px);
+				}
+				21%, 100% {
+					transform: translate(0, 0);
+				}
+			}
+
+			@keyframes cheeks1 {
+				0%, 4% {
+					transform: translate(0, 0);
+				}
+				5%, 20% {
+					transform: translate(-2px, 0);
+				}
+				21%, 100% {
+					transform: translate(0, 0);
+				}
+			}
+			
+			@keyframes cheeks2 {
+				0%, 4% {
+					transform: translate(0, 0);
+				}
+				5%, 20% {
+					transform: translate(2px, 0);
+				}
+				21%, 100% {
+					transform: translate(0, 0);
+				}
+			}
 	</style>
 	<defs>
 		<clipPath id="_clipPath_uSaH7GvzYbWeM4qHwkmFMFjBW04XGMZb">
@@ -258,7 +327,7 @@
 			<g clip-path="url(#_clipPath_GfHGE5rPamZOn1mdOv4gmrt5SbajtGwC)">
 				<path class="cheeks" d=" M 154.906 276.664 C 156.697 261.34 172.251 250.547 189.618 252.577 C 206.986 254.607 219.632 268.695 217.841 284.019 C 216.05 299.343 200.496 310.136 183.129 308.107 C 165.761 306.077 153.115 291.988 154.906 276.664 Z " fill="rgb(244,185,176)" fill-opacity="0.5"/>
 				<path class="cheeks" d=" M 297.849 287.531 C 294.061 272.576 304.747 256.948 321.698 252.655 C 338.648 248.361 355.485 257.018 359.273 271.974 C 363.061 286.93 352.375 302.558 335.425 306.851 C 318.474 311.144 301.637 302.487 297.849 287.531 Z " fill="rgb(244,185,176)" fill-opacity="0.5"/>
-				<path d=" M 327.92 246.06 C 328.076 244.728 329.284 243.772 330.617 243.928 C 331.949 244.084 332.905 245.292 332.749 246.624 C 332.593 247.957 331.385 248.912 330.052 248.757 C 328.72 248.601 327.764 247.393 327.92 246.06 Z " fill="rgb(237,186,169)"/>
+				<path class="cheeks" d=" M 327.92 246.06 C 328.076 244.728 329.284 243.772 330.617 243.928 C 331.949 244.084 332.905 245.292 332.749 246.624 C 332.593 247.957 331.385 248.912 330.052 248.757 C 328.72 248.601 327.764 247.393 327.92 246.06 Z " fill="rgb(237,186,169)"/>
 				<path class="dot" d=" M 239.625 289.582 C 239.781 288.25 240.989 287.294 242.321 287.45 C 243.654 287.606 244.609 288.814 244.453 290.147 C 244.298 291.479 243.089 292.434 241.757 292.279 C 240.424 292.123 239.469 290.915 239.625 289.582 Z " fill="rgb(237,186,169)"/>
 			</g>
 			<g>
@@ -269,8 +338,8 @@
 			<clipPath class="mouth" id="_clipPath_JX8fiKH0Xb474edhzH4QCrP3N8s60Aq5">
 				<path class="mouth" d=" M 256 296.231 Q 247.412 296.231 232 300.231 Q 242.886 307.856 256 308.061 Q 269.114 308.266 280 300.231 Q 264.588 296.231 256 296.231 Z " fill="rgb(244,206,186)"/>
 			</clipPath>
-			<g clip-path="url(#_clipPath_JX8fiKH0Xb474edhzH4QCrP3N8s60Aq5)">
-				<rect x="229.261" y="300" width="53.477" height="9.723" transform="matrix(1,0,0,1,0,0)" fill="rgb(243,197,173)"/>
+			<g class="mouth" clip-path="url(#_clipPath_JX8fiKH0Xb474edhzH4QCrP3N8s60Aq5)">
+				<rect class="mouth" x="229.261" y="300" width="53.477" height="9.723" transform="matrix(1,0,0,1,0,0)" fill="rgb(243,197,173)"/>
 			</g>
 			<g>
 				<path d=" M 228.158 215.173 Q 235.352 225.531 234.864 239.037 C 230.364 242.088 223.278 244.424 220.694 245 C 218.11 245.576 209.109 246.401 196.086 242.012 Q 188.902 239.592 180.8 233.433 Q 183.759 220.289 189.007 213.3 C 195.945 204.061 204.699 202.077 207.653 202.118 C 210.607 202.16 223.448 205.417 228.158 215.173 Z " fill="rgb(248,221,198)" fill-opacity="0.75" style="mix-blend-mode:screen;"/>
