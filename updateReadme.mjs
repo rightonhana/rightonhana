@@ -11,7 +11,7 @@ const holydays = {
 	"12/31": "newYear"
 };
 
-const date = new Date()
+const date = new Date("october 31")
 	.toISOString()
 	.split("T")[0]
 	.split("-")
