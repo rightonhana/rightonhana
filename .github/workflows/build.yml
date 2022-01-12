@@ -1,4 +1,4 @@
-name: Build README
+name: Update README
 
 on:
   schedule:
@@ -24,11 +24,12 @@ jobs:
         run: |-
           node updateReadme.mjs
           cat README.md
+
       - name: Commit and push
         run: |-
           git diff
           git config --global user.email "rightonhana@gmail.com"
-          git config --global user.name "Florencia Gonzalez"
+          git config --global user.name "Florencia Gonzalez (script)"
           git add -A
-          git commit -m ":bento: update avatar" || exit 0
+          git commit -m ":bento: update avatar"
           git push
