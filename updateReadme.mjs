@@ -2,8 +2,14 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const filename = "README.md";
 
+const leapYear = new Date().getFullYear() % 4 === 0;
+
+const programmerDay = leapYear ? {"09/12": "programmerDay"} : {"09/13": "programmerDay"};
+
 const holydays = {
 	"01/01": "newYear",
+	"04/01": "aprilFools",
+	//...programmerDay,
 	"09/30": "birthday",
 	"10/31": "halloween",
 	"12/24": "christmas",
