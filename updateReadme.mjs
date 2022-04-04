@@ -9,7 +9,7 @@ const programmerDay = leapYear ? {"09/12": "programmerDay"} : {"09/13": "program
 const holydays = {
 	"01/01": "newYear",
 	"04/01": "aprilFools",
-	//...programmerDay,
+	...programmerDay,
 	"09/30": "birthday",
 	"10/31": "halloween",
 	"12/24": "christmas",
