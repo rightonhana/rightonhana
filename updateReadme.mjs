@@ -10,6 +10,7 @@ const holydays = {
 	"01/01": "newYear",
 	"04/01": "aprilFools",
 	"04/22": "earthDay",
+	"05/04": "may4th",
 	...programmerDay,
 	"08/08": "catDay",
 	"09/30": "birthday",
