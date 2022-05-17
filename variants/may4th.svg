@@ -281,12 +281,12 @@
 		<g>
 			<path
 				d="M 13.368 374.427 L 152.62 305.736 C 157.872 303.145 164.239 305.306 166.83 310.558 L 187.514 352.493 C 190.105 357.745 187.944 364.112 182.692 366.703 L 43.44 435.394 C 38.188 437.985 31.821 435.824 29.23 430.572 L 8.546 388.637 C 5.955 383.385 8.116 377.018 13.368 374.427 Z"
-				style="stroke: none; fill: #171717; stroke-miterlimit: 10"
+				style="stroke: none; fill: rgb(57,56,56); stroke-miterlimit: 10"
 			/>
 			<clipPath id="_clipPath_gn1ybNMkub2GKfWXb6jqZwFGpSnL9cIZ">
 				<path
 					d="M 13.368 374.427 L 152.62 305.736 C 157.872 303.145 164.239 305.306 166.83 310.558 L 187.514 352.493 C 190.105 357.745 187.944 364.112 182.692 366.703 L 43.44 435.394 C 38.188 437.985 31.821 435.824 29.23 430.572 L 8.546 388.637 C 5.955 383.385 8.116 377.018 13.368 374.427 Z"
-					style="stroke: none; fill: #171717; stroke-miterlimit: 10"
+					style="stroke: none; fill: rgb(57,56,56); stroke-miterlimit: 10"
 				/>
 			</clipPath>
 			<g clip-path="url(#_clipPath_gn1ybNMkub2GKfWXb6jqZwFGpSnL9cIZ)">
