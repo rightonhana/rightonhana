@@ -735,12 +735,12 @@
 					<stop offset="0%" stop-opacity="1" style="stop-color:rgb(168, 36, 36)"/>
 					<stop offset="100%" stop-opacity="1" style="stop-color:rgb(244, 67, 54)"/>
 				</linearGradient>
-				<line class="pill-1" x1="59" y1="328" x2="94" y2="364" vector-effect="non-scaling-stroke" stroke-width="30" stroke="url(#_lgradient_0)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
+				<line class="pill-1" x1="59" y1="328" x2="94" y2="364" stroke-width="30" stroke="url(#_lgradient_0)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
 				<linearGradient id="_lgradient_1" x1="3.552713678800501e-15" y1="-3.497202527569244e-15" x2="1.0000000000000036" y2="1">
 					<stop offset="0%" stop-opacity="1" style="stop-color:rgb(35, 46, 118)"/>
 					<stop offset="97.91666666666666%" stop-opacity="1" style="stop-color:rgb(63, 81, 181)"/>
 				</linearGradient>
-				<line class="pill-2" x1="462" y1="328" x2="427" y2="364" vector-effect="non-scaling-stroke" stroke-width="30" stroke="url(#_lgradient_1)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
+				<line class="pill-2" x1="462" y1="328" x2="427" y2="364" stroke-width="30" stroke="url(#_lgradient_1)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
 			</g>
 		</g>
 		<g>
@@ -812,7 +812,7 @@
 					<path d=" M 342.479 259.088 C 342.904 256.384 345.402 254.527 348.052 254.945 C 350.703 255.362 352.509 257.896 352.083 260.6 C 351.658 263.304 349.16 265.16 346.51 264.743 C 343.859 264.326 342.053 261.792 342.479 259.088 Z " fill="rgb(66,63,61)"/>
 				</g>
 				<g>
-					<path d=" M 177.228 265.521 C 175.148 271.341 156.46 264.416 152.666 262.109 C 148.872 259.803 147.273 251.981 141.778 243.334 C 137.724 236.955 131.668 231.253 130.895 224.651 C 130.122 218.05 136.493 189.228 143.369 189.66 Q 157.13 190.78 163.372 198.179 Q 169.613 205.578 169.009 210.726 Q 179.308 259.701 177.228 265.521 Z " fill="rgb(248,209,187)"/>
+					<path d=" M 177.228 265.521 C 175.148 271.341 156.46 264.416 152.666 262.109 C 148.872 259.803 147.273 251.981 141.778 243.334 C 137.724 236.955 131.668 231.253 130.895 224.651 C 130.122 218.05 136.493 189.228 143.369 189.66 Q 157.13 190.78 163.372 198.179 Q 169.613 205.578 169.009 210.726 Q 179.308 259.701 177.228 265.521 Z " fill="rgb(248,209,187)" vector-effect="non-scaling-stroke"/>
 					<clipPath id="_clipPath_sztCn13pFRMyOBJwLQTBkQ9WC2YwUose">
 						<path d=" M 177.228 265.521 C 175.148 271.341 156.46 264.416 152.666 262.109 C 148.872 259.803 147.273 251.981 141.778 243.334 C 137.724 236.955 131.668 231.253 130.895 224.651 C 130.122 218.05 136.493 189.228 143.369 189.66 Q 157.13 190.78 163.372 198.179 Q 169.613 205.578 169.009 210.726 Q 179.308 259.701 177.228 265.521 Z " fill="rgb(248,209,187)"/>
 					</clipPath>
