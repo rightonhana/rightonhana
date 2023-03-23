@@ -1,10 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const filename = "README.md";
-
-const leapYear = new Date().getFullYear() % 4 === 0;
-
-const programmerDay = leapYear ? {"09/12": "programmerDay"} : {"09/13": "programmerDay"};
+const now = new Date();
 
 const holydays = {
 	"01/01": "newYear",
@@ -13,8 +10,9 @@ const holydays = {
 	"04/01": "aprilFools",
 	"04/22": "earthDay",
 	"05/04": "may4th",
-	...programmerDay,
 	"08/08": "catDay",
+	"08/26": "dogDay",
+	[`09/${now.getFullYear() % 4 === 0 ? 12 : 13}`]: "programmerDay",
 	"09/30": "birthday",
 	"10/31": "halloween",
 	"12/24": "christmas",
@@ -22,12 +20,7 @@ const holydays = {
 	"12/31": "newYear"
 };
 
-const date = new Date()
-	.toISOString()
-	.split("T")[0]
-	.split("-")
-	.slice(1)
-	.join("/");
+const date = now.toISOString().split("T")[0].split("-").slice(1).join("/");
 
 readFile(filename, "utf-8")
 	.then(data =>
