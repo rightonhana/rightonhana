@@ -10,6 +10,7 @@ const holydays = {
 	"04/01": "aprilFools",
 	"04/22": "earthDay",
 	"05/04": "may4th",
+	"07/17": "worldEmojiDay",
 	"08/08": "catDay",
 	"08/26": "dogDay",
 	[`09/${now.getFullYear() % 4 === 0 ? 12 : 13}`]: "programmerDay",
