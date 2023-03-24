@@ -252,28 +252,28 @@
 
 			@keyframes floating2 {
 				0%,100% {
-					transform:translate(0, -10px) rotate(6eg);
+					transform:translate(0, -10px);
 				}
 				50% {
-					transform:translate(-20px, 30px) rotate(-8deg);
+					transform:translate(-20px, 30px);
 				}
 			}
 
 			@keyframes floating3 {
 				0%,100% {
-					transform:translate(10px, -10px) rotate(-8eg);
+					transform:translate(10px, -10px);
 				}
 				50% {
-					transform:translate(-35px, 10px) rotate(10deg);
+					transform:translate(-35px, 10px);
 				}
 			}
 
 			@keyframes floating4 {
 				0%,100% {
-					transform:translate(20px, -15px) rotate(10eg);
+					transform:translate(20px, -15px);
 				}
 				50% {
-					transform:translate(10px, 20px) rotate(5deg);
+					transform:translate(10px, 20px);
 				}
 			}
 
@@ -288,7 +288,7 @@
 
 			@keyframes floating6 {
 				0%,100% {
-					transform:translateY(10px) rotate(-5eg);
+					transform:translateY(10px) rotate(-5deg);
 				}
 				50% {
 					transform:translate(-3px) rotate(2deg);

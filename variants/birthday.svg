@@ -258,7 +258,7 @@
 		}
 		@keyframes balloon3 {
 			0%,100% {
-				transform:translate(0, -10px) rotate(6eg);
+				transform:translate(0, -10px) rotate(6deg);
 			}
 			50% {
 				transform:translate(-20px, 30px) rotate(-8deg);
@@ -266,7 +266,7 @@
 		}
 		@keyframes balloon4 {
 			0%,100% {
-				transform:translate(10px, -10px) rotate(-8eg);
+				transform:translate(10px, -10px) rotate(-8deg);
 			}
 			50% {
 				transform:translate(-35px, 10px) rotate(10deg);
@@ -284,7 +284,7 @@
 			animation: balloon1 2s ease-in-out infinite;
 		}
 		.balloon-2 {
-			animation: balloon2 2s ease-in-out infinite;
+			animation: balloon2 6s ease-in-out infinite;
 		}
 		.balloon-3 {
 			animation: balloon4 5s ease-in-out infinite;
