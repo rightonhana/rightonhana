@@ -5,6 +5,7 @@ const now = new Date();
 
 const holydays = {
 	"01/01": "newYear",
+	"01/31": "ffviiDay",
 	"02/14": "valentine",
 	"03/10": "mar10",
 	"03/14": "piDay",
