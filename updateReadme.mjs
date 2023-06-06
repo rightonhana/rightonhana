@@ -3,7 +3,7 @@ import { readFile, writeFile } from "node:fs/promises";
 const filename = "README.md";
 const now = new Date();
 const date = now.toISOString().split("T")[0].split("-").slice(1).join("/");
-const prideMonth = "\d+(?=\/)".exec(date) ? { [date]: "pride"} : {};
+const prideMonth = /\d+(?=\/)/.exec(date) ? { [date]: "pride"} : {};
 
 const holydays = {
 	"01/01": "newYear",
