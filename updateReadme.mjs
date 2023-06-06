@@ -2,6 +2,8 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const filename = "README.md";
 const now = new Date();
+const date = now.toISOString().split("T")[0].split("-").slice(1).join("/");
+const prideMonth = "\d+(?=\/)".exec(date) ? { [date]: "pride"} : {};
 
 const holydays = {
 	"01/01": "newYear",
@@ -12,6 +14,7 @@ const holydays = {
 	"04/01": "aprilFools",
 	"04/22": "earthDay",
 	"05/04": "may4th",
+	...prideMonth,
 	"07/17": "worldEmojiDay",
 	"08/08": "catDay",
 	"08/26": "dogDay",
@@ -22,8 +25,6 @@ const holydays = {
 	"12/25": "christmas",
 	"12/31": "newYear"
 };
-
-const date = now.toISOString().split("T")[0].split("-").slice(1).join("/");
 
 readFile(filename, "utf-8")
 	.then(data =>
