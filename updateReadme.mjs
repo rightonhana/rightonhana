@@ -4,7 +4,7 @@ const filename = "README.md";
 const now = new Date();
 const date = now.toISOString().split("T")[0].split("-").slice(1).join("/");
 
-const holydays = {
+const holidays = {
 	"01/01": "newYear",
 	"01/31": "ffviiDay",
 	"02/14": "valentine",
@@ -31,7 +31,7 @@ readFile(filename, "utf-8")
 			filename,
 			data.replace(
 				/(?<src>src=")(?<path>[^"]*)(?<close>")/u,
-				`$1./variants/${holydays[date] ?? "base"}.svg$3`
+				`$1./variants/${holidays[date] ?? "base"}.svg$3`
 			),
 			"utf-8"
 		)
