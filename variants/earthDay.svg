@@ -428,7 +428,7 @@
 			</g>
 			<g>
 				<path d="M257.838,225.55C256.19,225.542 254.551,226.875 252.921,229.55C247.614,256.468 245.159,271.062 245.556,273.332C245.952,275.602 250.046,279.399 257.838,284.724C265.609,279.025 269.664,275.227 270.003,273.332C270.342,271.437 267.926,256.843 262.756,229.55C261.126,226.891 259.487,225.558 257.838,225.55Z" style="fill:#f8d1bb;fill-rule:nonzero;"/>
-				<path d="M262.756,276.929C264.296,279.551 267.519,280.521 269.947,279.095C272.376,277.668 273.097,274.381 271.557,271.759C270.701,270.302 269.326,269.355 267.857,269.046" style="fill:none;fill-rule:nonzero;stroke:#909090;stroke-width:2px;"/>
+				<path d="M262.756,276.929C264.296,279.551 267.519,280.521 269.947,279.095C272.376,277.668 273.097,274.381 271.557,271.759C270.701,270.302 269.326,269.355 267.857,269.046" style="fill:none;fill-rule:nonzero;stroke:#909090;stroke-width:2px;stroke-linecap:round;"/>
 			</g>
 			<path class="mouth" d="M256,296.231C250.275,296.231 242.275,297.564 232,300.231C239.257,305.314 247.257,307.924 256,308.061C264.743,308.198 272.743,305.588 280,300.231C269.725,297.564 261.725,296.231 256,296.231Z" style="fill:#f4ceba;fill-rule:nonzero;"/>
 			<g>
@@ -567,9 +567,9 @@
 		<g class="dialog-5">
 			<path d=" M 543.54 442.992 Q 540.599 443.14 541.063 440.62 Q 543.711 436.979 544.778 433.505 C 545.844 430.03 545.91 377.421 546.635 363.537 Q 546.635 355.631 554.064 355.235 L 903.571 355.235 Q 910.69 356.026 911 363.537 Q 911 377.421 911 433.505 Q 909.452 441.806 903.571 442.992 C 816.881 442.992 678.687 442.992 543.54 442.992 Z " fill="rgb(57,56,56)"/>
 			<g clip-path="url(#_clipPath_cd6GMJ8GaVQpHZEklPJY27QnsFp6XqOK)">
-				<text transform="matrix(1,0,0,1,565,381.172)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">If you want to know more about me </text>
-				<text transform="matrix(1,0,0,1,565,404.61)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">you can reach me out on </text>
-				<text transform="matrix(1,0,0,1,565,428.047)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">🔗 rightonhana.dev</text>
+				<text transform="matrix(1,0,0,1,565,381.172)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">If you want to learn more about me, </text>
+				<text transform="matrix(1,0,0,1,565,404.61)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm @rightonhana everywhere, or </text>
+				<text transform="matrix(1,0,0,1,565,428.047)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">you can go to 🔗 rightonhana.dev</text>
 			</g>
 			<defs>
 				<clipPath id="_clipPath_cd6GMJ8GaVQpHZEklPJY27QnsFp6XqOK">
@@ -604,8 +604,8 @@
 		<g class="dialog-2">
 			<path d=" M 543.742 442.16 Q 540.567 442.285 541.068 440.155 Q 543.927 437.077 545.078 434.139 C 546.23 431.202 546.301 394.748 547.084 383.011 Q 547.084 376.327 555.104 375.993 L 902.98 375.993 Q 910.666 376.661 911 383.011 Q 911 394.748 911 434.139 Q 909.329 441.157 902.98 442.16 C 809.39 442.16 689.644 442.16 543.742 442.16 Z " fill="rgb(57,56,56)"/>
 			<g clip-path="url(#_clipPath_ESlM0h8RX5VXCFQgA5t80sqGiBmZNFpN)">
-				<text transform="matrix(1,0,0,1,561.068,404.114)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm from Argentina 🇦🇷 but currently </text>
-				<text transform="matrix(1,0,0,1,561.068,427.551)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm living in the United States 🇺🇸</text>
+				<text transform="matrix(1,0,0,1,561.068,404.114)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm born and raised in Argentina 🇦🇷 </text>
+				<text transform="matrix(1,0,0,1,561.068,427.551)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">now living in Chicago, Illinois 🇺🇸</text>
 			</g>
 			<defs>
 				<clipPath id="_clipPath_ESlM0h8RX5VXCFQgA5t80sqGiBmZNFpN">
