@@ -548,7 +548,7 @@
 				</g>
 				<g>
 					<path d="M257.838,225.55C256.19,225.542 254.551,226.875 252.921,229.55C247.614,256.468 245.159,271.062 245.556,273.332C245.952,275.602 250.046,279.399 257.838,284.724C265.609,279.025 269.664,275.227 270.003,273.332C270.342,271.437 267.926,256.843 262.756,229.55C261.126,226.891 259.487,225.558 257.838,225.55Z" style="fill:#f8d1bb;fill-rule:nonzero;"/>
-					<path d="M262.756,276.929C264.296,279.551 267.519,280.521 269.947,279.095C272.376,277.668 273.097,274.381 271.557,271.759C270.701,270.302 269.326,269.355 267.857,269.046" style="fill:none;fill-rule:nonzero;stroke:#909090;stroke-width:2px;"/>
+					<path d="M262.756,276.929C264.296,279.551 267.519,280.521 269.947,279.095C272.376,277.668 273.097,274.381 271.557,271.759C270.701,270.302 269.326,269.355 267.857,269.046" style="fill:none;fill-rule:nonzero;stroke:#909090;stroke-width:2px;stroke-linecap:round;"/>
 				</g>
 				<path class="mouth" d="M256,296.231C250.275,296.231 242.275,297.564 232,300.231C239.257,305.314 247.257,307.924 256,308.061C264.743,308.198 272.743,305.588 280,300.231C269.725,297.564 261.725,296.231 256,296.231Z" style="fill:#f4ceba;fill-rule:nonzero;"/>
 				<g>
@@ -662,59 +662,64 @@
 				</g>
 			</g>
 			<g class="dialog-5">
-				<path d="M543.54,442.992C541.579,443.091 540.754,442.3 541.063,440.62C542.828,438.193 544.067,435.821 544.778,433.505C545.844,430.03 545.91,377.421 546.635,363.537C546.635,358.266 549.111,355.499 554.064,355.235L903.571,355.235C908.317,355.762 910.793,358.53 911,363.537L911,433.505C909.968,439.039 907.492,442.201 903.571,442.992L543.54,442.992Z" style="fill:rgb(23,23,23);fill-rule:nonzero;"/>
-				<g>
-					<g transform="matrix(1,0,0,1,565,381.172)">
-						<text x="0px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(232,232,232);">If you want to know more about me</text>
-					</g>
-					<g transform="matrix(1,0,0,1,565,404.61)">
-						<text x="0px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(232,232,232);">you can reach me out on on</text>
-					</g>
-					<g transform="matrix(1,0,0,1,565,428.047)">
-						<text x="0px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(232,232,232);">rightonhana.dev</text>
-					</g>
+				<path d=" M 543.54 442.992 Q 540.599 443.14 541.063 440.62 Q 543.711 436.979 544.778 433.505 C 545.844 430.03 545.91 377.421 546.635 363.537 Q 546.635 355.631 554.064 355.235 L 903.571 355.235 Q 910.69 356.026 911 363.537 Q 911 377.421 911 433.505 Q 909.452 441.806 903.571 442.992 C 816.881 442.992 678.687 442.992 543.54 442.992 Z " fill="rgb(57,56,56)"/>
+				<g clip-path="url(#_clipPath_cd6GMJ8GaVQpHZEklPJY27QnsFp6XqOK)">
+					<text transform="matrix(1,0,0,1,565,381.172)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">If you want to learn more about me, </text>
+					<text transform="matrix(1,0,0,1,565,404.61)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm @rightonhana everywhere, or </text>
+					<text transform="matrix(1,0,0,1,565,428.047)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">you can go to 🔗 rightonhana.dev</text>
 				</g>
+				<defs>
+					<clipPath id="_clipPath_cd6GMJ8GaVQpHZEklPJY27QnsFp6XqOK">
+						<rect x="0" y="0" width="338.571" height="73" transform="matrix(1,0,0,1,565,362.618)"/>
+					</clipPath>
+				</defs>
 			</g>
 			<g class="dialog-4">
-				<path d="M543.142,442.993C541.489,443.076 540.792,442.41 541.053,440.993C542.542,438.946 543.586,436.946 544.186,434.993C545.085,432.063 545.141,416.701 545.752,404.993C545.752,400.548 547.84,398.215 552.016,397.993L823.736,397.993C827.738,398.438 829.826,400.771 830,404.993L830,434.993C829.13,439.66 827.042,442.326 823.736,442.993L543.142,442.993Z" style="fill:rgb(23,23,23);fill-rule:nonzero;"/>
-				<g>
-					<g transform="matrix(1,0,0,1,559.408,426.799)">
-						<text x="0px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(232,232,232);">My pronouns are She/Her</text>
-					</g>
+				<path d=" M 543.142 442.993 Q 540.662 443.118 541.053 440.993 Q 543.286 437.923 544.186 434.993 C 545.085 432.063 545.141 416.701 545.752 404.993 Q 545.752 398.326 552.016 397.993 L 823.736 397.993 Q 829.739 398.66 830 404.993 Q 830 416.701 830 434.993 Q 828.695 441.993 823.736 442.993 C 750.635 442.993 657.103 442.993 543.142 442.993 Z " fill="rgb(57,56,56)"/>
+				<g clip-path="url(#_clipPath_Ms0lecwxuJ44rVCTRwPcoZdoHehpvDLq)">
+					<text transform="matrix(1,0,0,1,559.408,426.799)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">My pronouns are She/Her 👩‍💻</text>
 				</g>
+				<defs>
+					<clipPath id="_clipPath_Ms0lecwxuJ44rVCTRwPcoZdoHehpvDLq">
+						<rect x="0" y="0" width="258.183" height="24.503" transform="matrix(1,0,0,1,559.408,408.245)"/>
+					</clipPath>
+				</defs>
 			</g>
 			<g class="dialog-3">
-				<path d="M543.54,442.992C541.579,443.091 540.754,442.3 541.063,440.62C542.828,438.193 544.067,435.821 544.778,433.505C545.844,430.03 545.91,377.421 546.635,363.537C546.635,358.266 549.111,355.499 554.064,355.235L903.571,355.235C908.317,355.762 910.793,358.53 911,363.537L911,433.505C909.968,439.039 907.492,442.201 903.571,442.992L543.54,442.992Z" style="fill:rgb(23,23,23);fill-rule:nonzero;"/>
-				<g>
-					<g transform="matrix(1,0,0,1,565,381.172)">
-						<text x="0px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(232,232,232);">I&apos;m a Front-end Developer with</text>
-					</g>
-					<g transform="matrix(1,0,0,1,565,404.61)">
-						<text x="0px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(232,232,232);">experience in <tspan x="123.428px 136.768px " y="0px 0px ">An</tspan>gular<tspan x="191.27px 196.826px " y="0px 0px ">, </tspan>React and</text>
-					</g>
-					<g transform="matrix(1,0,0,1,565,428.047)">
-						<text x="0px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(232,232,232);">Svelte.</text>
-					</g>
+				<path d=" M 543.54 442.992 Q 540.599 443.14 541.063 440.62 Q 543.711 436.979 544.778 433.505 C 545.844 430.03 545.91 377.421 546.635 363.537 Q 546.635 355.631 554.064 355.235 L 903.571 355.235 Q 910.69 356.026 911 363.537 Q 911 377.421 911 433.505 Q 909.452 441.806 903.571 442.992 C 816.881 442.992 678.687 442.992 543.54 442.992 Z " fill="rgb(57,56,56)"/>
+				<g clip-path="url(#_clipPath_cd6GMJ8GaVQpHZEklPJY27QnsFp6XqOK)">
+					<text transform="matrix(1,0,0,1,565,381.172)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm a Front-end Developer with </text>
+					<text transform="matrix(1,0,0,1,565,404.61)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">experience in Angular, React and </text>
+					<text transform="matrix(1,0,0,1,565,428.047)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">Svelte.</text>
 				</g>
+				<defs>
+					<clipPath id="_clipPath_cd6GMJ8GaVQpHZEklPJY27QnsFp6XqOK">
+						<rect x="0" y="0" width="338.571" height="73" transform="matrix(1,0,0,1,565,362.618)"/>
+					</clipPath>
+				</defs>
 			</g>
 			<g class="dialog-2">
-				<path d="M543.742,443.16C541.625,443.243 540.734,442.575 541.068,441.155C542.974,439.103 544.311,437.098 545.078,435.139C546.23,432.202 546.301,395.748 547.084,384.011C547.084,379.555 549.757,377.216 555.104,376.993L902.98,376.993C908.104,377.438 910.777,379.778 911,384.011L911,435.139C909.886,439.818 907.213,442.491 902.98,443.16L543.742,443.16Z" style="fill:rgb(23,23,23);fill-rule:nonzero;"/>
-				<g>
-					<g transform="matrix(1,0,0,1,561.068,405.114)">
-						<text x="0px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(232,232,232);">I&apos;m from <tspan x="76.055px 89.395px " y="0px 0px ">Ar</tspan>gentina but currently I&apos;m</text>
-					</g>
-					<g transform="matrix(1,0,0,1,561.068,428.551)">
-						<text x="0px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(232,232,232);">living in the United States.</text>
-					</g>
+				<path d=" M 543.742 442.16 Q 540.567 442.285 541.068 440.155 Q 543.927 437.077 545.078 434.139 C 546.23 431.202 546.301 394.748 547.084 383.011 Q 547.084 376.327 555.104 375.993 L 902.98 375.993 Q 910.666 376.661 911 383.011 Q 911 394.748 911 434.139 Q 909.329 441.157 902.98 442.16 C 809.39 442.16 689.644 442.16 543.742 442.16 Z " fill="rgb(57,56,56)"/>
+				<g clip-path="url(#_clipPath_ESlM0h8RX5VXCFQgA5t80sqGiBmZNFpN)">
+					<text transform="matrix(1,0,0,1,561.068,404.114)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">I'm born and raised in Argentina 🇦🇷 </text>
+					<text transform="matrix(1,0,0,1,561.068,427.551)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">now living in Chicago, Illinois 🇺🇸</text>
 				</g>
+				<defs>
+					<clipPath id="_clipPath_ESlM0h8RX5VXCFQgA5t80sqGiBmZNFpN">
+						<rect x="0" y="0" width="341" height="46.875" transform="matrix(1,0,0,1,561.068,385.559)"/>
+					</clipPath>
+				</defs>
 			</g>
 			<g class="dialog-1">
-				<path d="M543.297,442.993C541.524,443.076 540.777,442.41 541.057,440.993C542.654,438.946 543.774,436.946 544.417,434.993C545.382,432.063 545.441,416.701 546.097,404.993C546.097,400.548 548.337,398.215 552.817,397.993L896.28,397.993C900.573,398.438 902.813,400.771 903,404.993L903,434.993C902.067,439.66 899.827,442.326 896.28,442.993L543.297,442.993Z" style="fill:rgb(23,23,23);fill-rule:nonzero;"/>
-				<g>
-					<g transform="matrix(1,0,0,1,559,427.048)">
-						<text x="0px" y="0px" style="font-family:'Helvetica';font-size:20px;fill:rgb(232,232,232);">Hi there I&apos;m Florencia Gonzalez</text>
-					</g>
+				<path d=" M 543.297 442.993 Q 540.637 443.118 541.057 440.993 Q 543.452 437.923 544.417 434.993 C 545.382 432.063 545.441 416.701 546.097 404.993 Q 546.097 398.326 552.817 397.993 L 896.28 397.993 Q 902.72 398.66 903 404.993 Q 903 416.701 903 434.993 Q 901.6 441.993 896.28 442.993 C 817.868 442.993 665.54 442.993 543.297 442.993 Z " fill="rgb(57,56,56)"/>
+				<g clip-path="url(#_clipPath_3D2gxkuakMBlARHwnRYqTgx1WEIpF5CZ)">
+					<text transform="matrix(1,0,0,1,559,427.048)" style="font-family:monospace;font-weight:400;font-size:16px;font-style:normal;fill:#e8e8e8;stroke:none;">Hi there 👋 I'm Florencia Gonzalez</text>
 				</g>
+				<defs>
+					<clipPath id="_clipPath_3D2gxkuakMBlARHwnRYqTgx1WEIpF5CZ">
+						<rect x="0" y="0" width="350" height="24.007" transform="matrix(1,0,0,1,559,408.493)"/>
+					</clipPath>
+				</defs>
 			</g>
 		</g>
 	</g>
