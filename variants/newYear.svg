@@ -245,7 +245,7 @@
 				opacity: 0;
 			}
 		}
-		@keyframes fireworfour {
+		@keyframes fireworkfour {
 			0% {
 				opacity: 0;
 			}
