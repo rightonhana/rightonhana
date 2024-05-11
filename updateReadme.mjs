@@ -15,7 +15,6 @@ const holidays = {
 	"01/01": "newYear",
 	"01/31": "ffviiDay",
 	"02/14": "valentine",
-	[lunarNewYear]: `${lunarYear[currentYear % 12]}`,
 	"03/01": "akiraToriyama",
 	"03/10": "mar10",
 	"03/14": "piDay",
