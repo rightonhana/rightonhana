@@ -1,13 +1,22 @@
 import { readFile, writeFile } from "node:fs/promises";
 
+// Functions
+const getCurrentDate = date => {
+	return date.toISOString().split("T")[0].split("-").slice(1).join("/");
+};
+
+// Constants
 const filename = "README.md";
 const now = new Date();
-const date = now.toISOString().split("T")[0].split("-").slice(1).join("/");
+const currentYear = now.getFullYear();
+const date = getCurrentDate(now);
 
 const holidays = {
 	"01/01": "newYear",
 	"01/31": "ffviiDay",
 	"02/14": "valentine",
+	[lunarNewYear]: `${lunarYear[currentYear % 12]}`,
+	"03/01": "akiraToriyama",
 	"03/10": "mar10",
 	"03/14": "piDay",
 	"04/01": "aprilFools",
@@ -17,7 +26,7 @@ const holidays = {
 	"07/17": "worldEmojiDay",
 	"08/08": "catDay",
 	"08/26": "dogDay",
-	[`09/${now.getFullYear() % 4 === 0 ? 12 : 13}`]: "programmerDay",
+	[`09/${currentYear % 4 === 0 ? 12 : 13}`]: "programmerDay",
 	"09/30": "birthday",
 	"10/31": "halloween",
 	"12/24": "christmas",
