@@ -4,6 +4,19 @@ import { readFile, writeFile } from "node:fs/promises";
 const getCurrentDate = date => {
 	return date.toISOString().split("T")[0].split("-").slice(1).join("/");
 };
+const programmerDay = currentYear => {
+	return currentYear % 4 === 0 ? 12 : 13;
+};
+const thanksgivingDay = currentYear => {
+	const novMonthIndex = 10;
+	const novMonth = 11;
+	const weekDays = 7;
+	const firstPossibleThanksgivingDate = 22;
+	const firstNovDay = new Date(currentYear, novMonthIndex, 1);
+	const firstNovDayOfWeek = firstNovDay.getDay();
+	
+	return firstPossibleThanksgivingDate + (novMonth - firstNovDayOfWeek) % weekDays;
+};
 
 // Constants
 const filename = "README.md";
@@ -25,9 +38,10 @@ const holidays = {
 	"07/17": "worldEmojiDay",
 	"08/08": "catDay",
 	"08/26": "dogDay",
-	[`09/${currentYear % 4 === 0 ? 12 : 13}`]: "programmerDay",
+	[`09/${programmerDay(currentYear)}`]: "programmerDay",
 	"09/30": "birthday",
 	"10/31": "halloween",
+	[`11/${thanksgivingDay(currentYear)}`]: "thanksgiving",
 	"12/24": "christmas",
 	"12/25": "christmas",
 	"12/31": "newYear"
